@@ -2,8 +2,7 @@
 
 This lab will focus primarily on the use of constructors, setters, getters, and object instances.
 
-For ease of access, here is the [javadoc]().
-**UPDATE THIS LINK ONCE IT'S PROPERLY ADDED TO GITHUB**
+For ease of access, here is the [javadoc](https://csu-compsci-cs163-4.github.io/Lab05StrictHousehold/).
 
 ## Step 1: Self-Explanation
 Answer the following questions on a separate sheet of paper or in the comments of your code:
