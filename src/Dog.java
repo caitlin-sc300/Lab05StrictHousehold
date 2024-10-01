@@ -12,22 +12,18 @@ public class Dog {
         this.name = name;
     }
     public String getName(){
-        
         return name;
     }
     public void setAge(int age){
         this.age = age;
-        
     }
     public int getAge(){
-       
         return age;
     }
     public void setBreed(String breed){
         this.breed = breed;
     }
     public String getBreed(){
-    
         return breed;
     }
     public static void main(String[] args) {
