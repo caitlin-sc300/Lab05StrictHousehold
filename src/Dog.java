@@ -13,7 +13,6 @@ public class Dog {
     }
     public String getName(){
         
-        return name;
         return "";
     }
     public void setAge(int age){
@@ -22,15 +21,13 @@ public class Dog {
     }
     public int getAge(){
        
-        return age;
         return -1;
     }
     public void setBreed(String breed){
         this.breed = breed;
     }
     public String getBreed(){
-        
-        return breed;
+    
         return "";
     }
     public static void main(String[] args) {
