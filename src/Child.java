@@ -6,42 +6,43 @@ public class Child {
     private String favColor;
 
     public Child(String name, int age, double bedtime, String sport, String favColor){
-        //TODO STUDENT
+        this.name = name;
+        this.age = age;
+        this.bedtime = bedtime;
+        this.sport = sport;
+        this.favColor = favColor;
     }
     public void setName(String name){
-        //TODO STUDENT
+        this.name = name;
     }
     public String getName() {
-        //TODO STUDENT
-        return "";
+        return name;
     }
     public void setAge(int age) {
-        //TODO STUDENT
+        this.age = age;
     }
     public int getAge(){
-        //TODO STUDENT
-        return -1;
+        return age;
     }
     public void setBedtime(double bedtime){
-        //TODO STUDENT
+        this.bedtime = bedtime;
     }
     public double getBedtime() {
-        //TODO STUDENT
-        return -1.0;
+        return bedtime;
     }
     public void setSport(String sport){
-        //TODO STUDENT
+        this.sport = sport;
     }
     public String getSport(){
-        //TODO STUDENT
-        return "";
+        
+        return sport;
     }
     public void setFavColor(String favColor){
-        //TODO STUDENT
+        this.favColor = favColor;
     }
     public String getFavColor(){
-        //TODO STUDENT
-        return "";
+        
+        return favColor;
     }
     public static void main(String[] args) {
         Child Roman = new Child("Roman", 8, 9.30, "baseball", "yellow");
