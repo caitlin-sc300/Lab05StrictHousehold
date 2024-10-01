@@ -4,28 +4,30 @@ public class Dog {
     private String breed;
 
     public Dog(String name, int age, String breed){
-        //TODO STUDENT
+        this.name = name;
+        this.age = age;
+        this.breed = breed;
     }
     public void setName(String name){
-        //TODO STUDENT
+        this.name = name;
     }
     public String getName(){
-        //TODO STUDENT
-        return "";
+        
+        return name;
     }
     public void setAge(int age){
-        //TODO STUDENT
+        this.age = age;
     }
     public int getAge(){
-        //TODO STUDENT
-        return -1;
+       
+        return age;
     }
     public void setBreed(String breed){
-        //TODO STUDENT
+        this.breed = breed;
     }
     public String getBreed(){
-        //TODO STUDENT
-        return "";
+        
+        return breed;
     }
     public static void main(String[] args) {
         Dog Buster = new Dog("Buster", 4, "Golden Retriever");
